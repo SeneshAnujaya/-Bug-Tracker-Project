@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+}
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input,
+textarea,
+select,
+button {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
+table {
+
+  /* margin: auto; */
+}
+
+tr {
+  border: none;
+}
+th,
+td {
+  padding: 0.5rem 0.3rem;
+}
+.main-wrapper {
+  display: flex;
+  height: 100vh;
+  padding: 2rem;
+}
+.form-wrapper {
+  padding: 2rem;
+}
+.form-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.submit-btn {
+  background-color: rgb(10, 163, 252);
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.7rem 1rem;
+  color: #fff;
+}
+.submit-btn:hover {
+  background-color: rgb(7, 139, 216);
+  cursor: pointer;
+}
+#response {
+  margin-top: 1rem;
+  display: none;
+  margin-top: 10px;
+}
+.admin-link-wrapper {
+  margin-top: 0.75rem;
+}
+
+.admin-link-wrapper a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: rgb(10, 163, 252);
+}
+
+/* ADMIN DASHBOARD STYLES */
+.dashboard-wrapper {
+  margin: auto;
+  padding: 2rem;
+  height: 100vh;
+}
+.dashboard-container {
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-height: 700px;
+}
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.update-btn {
+  background-color: rgb(10, 163, 252);
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+.update-btn:hover {
+  background-color: rgb(7, 139, 216);
+  cursor: pointer;
+}
+.filter-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-labels-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.filter-wrapper label {
+  font-size: 0.95rem;
+}
+.filter-wrapper select {
+  padding: 0.2rem;
+}
+
+/* Login styles */
+.login-wrapper {
+  margin: auto;
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.logout-btn {
+  background-color: rgb(10, 163, 252);
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  text-decoration: none;
+}

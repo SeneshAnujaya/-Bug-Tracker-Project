@@ -1,0 +1,66 @@
+[
+    {
+        "title": "bug one",
+        "description": "this is bug one description",
+        "reporter": "senesh",
+        "priority": "Low",
+        "status": "Resolved",
+        "date": "2025-07-19 18:05:08"
+    },
+    {
+        "title": "style is missing",
+        "description": "not correctly linked style file",
+        "reporter": "anujaya",
+        "priority": "High",
+        "status": "In Progress",
+        "date": "2025-07-19 18:22:59"
+    },
+    {
+        "title": "bug two",
+        "description": "bug two",
+        "reporter": "anujaya",
+        "priority": "Low",
+        "status": "In Progress",
+        "date": "2025-07-19 18:48:19"
+    },
+    {
+        "title": "bug two three",
+        "description": "this is bug two",
+        "reporter": "anujaya",
+        "priority": "Medium",
+        "status": "Open",
+        "date": "2025-07-19 19:33:59"
+    },
+    {
+        "title": "bug four",
+        "description": "this is bug four",
+        "reporter": "senesh",
+        "priority": "Low",
+        "status": "Open",
+        "date": "2025-07-19 19:37:48"
+    },
+    {
+        "title": "bug three",
+        "description": "bug three",
+        "reporter": "senesh",
+        "priority": "Medium",
+        "status": "In Progress",
+        "date": "2025-07-19 19:41:23"
+    },
+    {
+        "title": "bug two",
+        "description": "bug two description",
+        "reporter": "senesh",
+        "priority": "Low",
+        "status": "Open",
+        "date": "2025-07-19 20:38:58"
+    },
+    {
+        "title": "sign up button bug",
+        "description": "sign up button not work when refresh",
+        "reporter": "senesh",
+        "priority": "High",
+        "status": "In Progress",
+        "date": "2025-07-19 22:18:07"
+    }
+]

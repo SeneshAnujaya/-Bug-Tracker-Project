@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bug Tracking App</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="main-wrapper">
+    <div class="container form-wrapper">
+    <h2 class="form-title">Submit a Bug</h2>
+    
+    <form id="bugForm">
+      <input type="text" name="title" placeholder="Title..." required />
+      <textarea name="description" placeholder="Description..." required></textarea>
+      <input type="text" name="reporter" placeholder="Your Name..." required />
+      <select name="priority" required>
+        <option value="">Select Priority</option>
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+      <button class="submit-btn" type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+    <div class="admin-link-wrapper">
+    <a href="dashboard.php" class="dashboard-link">🔐 Admin Dashboard</a>
+  </div>
+  </div>
+  </div>
+
+  <!-- script js -->
+  <script src="assets/js/script.js"></script>
+  </body>
+</html>
