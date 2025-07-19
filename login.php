@@ -38,8 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
  
 
   <form method="POST" action="login.php">
-    <input type="text" name="username" placeholder="Username"  /><br /><br />
-    <input type="password" name="password" placeholder="Password"  /><br /><br />
+    <input type="text" name="username" placeholder="Username"  required/><br /><br />
+    <input type="password" name="password" placeholder="Password"  required/><br /><br />
     <button type="submit" class="submit-btn">Login</button>
   </form>
    <?php if (isset($error)): ?>
